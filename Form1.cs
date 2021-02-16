@@ -1,4 +1,12 @@
-﻿using Itenso.TimePeriod;
+//AUTHORS - Kunal, Feroz
+//Basic C# windows form application
+//1.Standard Calculator - Feroz
+//2.Date Calculator - Kunal
+//3.Currency Converter - Kunal
+// Application Integration - Feroz
+
+
+using Itenso.TimePeriod;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,6 +63,8 @@ namespace Final_Calc_App
             groupBox3.Location = new Point(0, 27);
             this.Width = 240;
         }
+        
+        //Currency Converter - Kunal
 
         private void conv_btn_Click(object sender, EventArgs e)
         {
@@ -134,7 +144,7 @@ namespace Final_Calc_App
                 Result.AppendText("Enter Correct Amount");
             }
         }
-
+        // Date Calculator - Kunal
         private void button18_Click(object sender, EventArgs e)
         {
             DateTime fromDate;
@@ -204,7 +214,8 @@ namespace Final_Calc_App
                 Result.AppendText(complete);
             }
         }
-
+        // Standard Calculator - Feroz
+        
         private void button4_Click(object sender, EventArgs e)
         {
             
